@@ -1,0 +1,527 @@
+ body {
+  font-family: 'Lato', Verdana;
+  font-size: 100%;
+  background: #DEB887;
+}
+.wrap
+{
+  margin: 0 auto;
+  width: 70%;  
+}
+.header{
+  padding: 1.3em 0em; 
+}
+.logo{
+  float: left; 
+}
+.logo a {
+  display: block; 
+}
+.nav {
+  float: right;   
+  margin-top: 0.82em;
+}
+.nav > ul > li {
+  display:inline-block;  
+}
+.nav > ul > li.active a{
+  background: #DEB887;
+  color: #ffffff;
+}
+.nav > ul > li > a {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  padding: 0.5em 1em;
+  color: #444;
+  -webkit-transition: 0.9s; 
+  -moz-transition: 0.9s;
+  -o-transition: 0.9s;
+  transition: 0.9s;
+}
+.nav > ul > li > a:hover {
+  color: #fff;
+  background: #DEB887;
+}
+ .mops_bg{
+  background:  url(https://respect-shoes.com.ua/image/data/foto%20magazinov/Kryvyi_rih/2018_08_02__krivoy_rog_3.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.mops_text {
+  padding: 20% 0%;
+}
+.mops_text h2 {
+  color: #fff;
+  font-size: 2.9em;
+  font-weight: 600;
+  z-index: 10;
+  text-align: center;
+  position: relative; 
+  margin-top: -140px;
+  }
+.mops_text h2 span {
+  font-size: 1.1em;
+  font-weight: 290;
+}
+.mops_text p {
+  color: #fff;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 1.4em auto;
+  width: 76%;
+  font-weight: 200;
+  line-height: 1.3em;
+}
+.mops_text .da-butt {
+  display: block;
+  background-color: #DEB887;
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+  margin: 0 auto;
+  width: 10%;
+  text-align: center;
+  padding: 1em 2em;
+}
+.da-butt {
+  position: absolute;
+  left: 650px; top: 450px; 
+}
+.mops_text .da-butt:hover
+{
+  background:#DEB887;
+}
+.butt-img{
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 2em auto 1em;
+  background: url(https://myrusakov.ru/images/articles/html_coding_buttonimg.png);
+  position: relative;/
+  left: 210px; top: 130px; 
+}
+.butt-img:hover{
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url(https://myrusakov.ru/images/articles/html_coding_buttonimgh.png);
+}
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 100%;
+  background: #ffffff;
+}
+
+/* start main_btm */
+.container h2{
+  color:#4D4D4D;
+  font-size: 2em;
+  padding-bottom: 0.5em;
+  text-align: center;
+  
+}
+.container p{
+  color:#444444;
+  font-size: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+.main_btm {
+  margin-top: 4%;
+  display: block;
+}
+
+.gallery{
+  margin-top: 4% 0%;
+}
+.gallery1 {
+  padding: 4em 0em;
+}
+.container { 
+  position: relative; 
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+      
+}
+#filters {
+  margin: 2% auto;
+  padding: 0;
+  list-style: none;
+  width: 82%;
+}
+#filters li {
+  float:left;
+  margin-left: 30px;
+}
+#filters li span {
+  display: block;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: #fff;
+  background:#DEB887;
+  cursor: pointer;
+  text-transform:uppercase;
+  font-weight: 600;
+}
+#filters li span:hover
+{
+  background:#DEB887;
+}
+#filters li span.active {
+  background:#DEB887;
+  color:#fff;
+}
+#portfoliolist .portfolio {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  width: 19%;
+  margin: 0% 3%;
+  float: left;
+}
+.portfolio-wrapper {
+  position: relative !important;
+  cursor:pointer;
+}
+.portfolio img {
+  max-width:100%;
+  position: relative;
+  opacity: 5;
+  transition: all 300ms!important;
+  -webkit-transition: all 300ms!important;
+  -moz-transition: all 300ms!important;
+}
+.ch-item {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+  cursor: default;
+    
+  -webkit-transition: all 0.9s ease-in-out;
+  -moz-transition: all 0.9s ease-in-out;
+  -o-transition: all 0.9s ease-in-out;
+  -ms-transition: all 0.9s ease-in-out;
+  transition: all 0.9s ease-in-out;
+}
+
+
+
+.ch-img-2 { 
+  background-image: url(http://europug.eu/images/chat.png);
+}
+
+.ch-img-3 { 
+  background-image: url(http://europug.eu/images/fire.png);
+}
+
+
+
+.ch-img-6 { 
+  background-image: url(http://europug.eu/images/loop.png);
+}
+
+
+.ch-img-8 { 
+  background-image: url(http://europug.eu/images/icon5.png) ;
+}
+
+.ch-info {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  opacity: 0;
+  
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -o-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  
+  -webkit-backface-visibility: hidden;
+
+}
+.ch-info img
+{
+  width:33px;
+  height:34px;
+  margin-top:18%;
+}
+.ch-info h3 {
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 2px;
+  font-size: 15px;
+  padding: 15px 0 0 0;
+  text-shadow: 
+    0 0 1px #fff, 
+    0 1px 2px rgba(0,0,0,0.3);
+}
+
+.ch-info p {
+  color: #fff;
+  padding: 10px 5px;
+  font-style: italic;
+  margin: 0 30px;
+  font-size: 12px;
+}
+
+.ch-info p a {
+  display: block;
+  color: #fff;
+  color: rgba(255,255,255,0.7);
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 1px;
+  padding-top: 4px;
+}
+
+.ch-info p a:hover {
+  color: #fff222;
+  color: rgba(255,242,34, 0.8);
+}
+
+.ch-item:hover {
+  box-shadow: 
+    inset 0 0 0 110px rgba(199,91,91, 0.8),
+    inset 0 0 0 16px rgba(255,255,255,0.8),
+    0 1px 2px rgba(0,0,0,0.1);
+}
+
+.ch-item:hover .ch-info {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);  
+}
+.ch-grid {
+  margin: 20px 0 0 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.ch-grid:after,
+.ch-item:before {
+  content: '';
+    display: table;
+}
+
+.ch-grid:after {
+  clear: both;
+}
+
+.ch-grid li {
+  width: 176px;
+  height: 180px;
+  display: inline-block;
+  margin: 20px;
+}
+.about{
+    color:#fff;
+  background-color: #DEB887; 
+  text-align:center; 
+  padding: 5em 0em;
+  } 
+.wrap_about{
+  width: 90%; 
+  margin: 0 auto;
+  
+  }
+.about h2{ 
+  font-size:2em;
+  padding-bottom: 0.5em;
+   }
+.about p{
+  font-size:1em;
+  padding-bottom: 4em;
+  }
+.grid{   
+    width: 30%;
+  float: left;
+  background: #fff;
+  margin: 0 1.5% 0 1.5%;
+  border: 1px solid black;
+  min-height: 508px;
+   }
+.grid  h3{
+  color: #292828;
+  font-size: 1.4em;
+  margin-top: 15px;
+   }
+.grid  p {
+  color: #444444;
+  font-size: 1.02em;
+  text-align: left;
+  padding: 1em 1em 2em 1em;
+  line-height: 1.9em;
+}
+.clear{clear:both;} 
+
+#contact {
+  background-color: #ebebeb;
+}
+#contact h2{
+  color:#444444;
+  font-size:2em;
+  padding: 2em 0em 0.7em 0em;
+  text-align: center;
+}
+#contact h4{
+  color:#444;
+  font-size:1em;
+  text-align: center;
+}
+#contact h5{
+  color:#444;
+  font-size:1em;
+  padding-bottom: 2em;
+}
+.wrap_contact
+{
+  width: 87%;
+  margin: 0 auto;
+}
+.null{
+   
+   }
+
+.col{
+  display: block;
+  float:left;
+  margin: 4% 0 4% 1.6%;
+  }
+.col:first-child{
+  margin-left:0; 
+} 
+.span_2_of_3 {
+  width: 66.1%;
+  }
+.span_1_of_3 {
+  width: 32.2%; 
+  }
+.contact-form{
+  padding-bottom:30px;
+  }
+.contact-form div{
+  padding:5px 0 15px;
+}
+.contact-form input[type="text"],.contact-form input[type="email"],.contact-form textarea{
+  padding: 15px;
+  display: block;
+  width: 41%;
+  background:#fff;
+  outline: none;
+  color:#888282;
+  font-size: 0.8125em;
+  -webkit-appearance: none;
+  float:left;
+  margin-right: 2em;
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  border: 2px solid #cacaca;
+}
+.contact-form input[type="email"]
+{
+  margin-right: 0em;
+}
+.contact-form textarea{
+  padding: 18px;
+  display: block;
+  width: 94%;
+  height:180px;
+  background:#fff;
+  outline: none;
+  color:#888282;
+  font-size: 0.8125em;
+  font-style: italic;
+  border:2px solid #cacaca;
+  margin-bottom: 2em;
+  }
+
+.contact-form form input[type="submit"] 
+{
+  font-family: 'Lato', sans-serif;
+  color:#fff;
+  padding: 0.8em 1.5em;
+  background: #DEB887;
+  border:none;
+  display: block;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+  font-size: 1em;
+  outline: none;
+  text-transform: uppercase;
+  float: right;
+  margin-right: 2%; 
+}
+.company_address p {
+  color:#525252;
+  font-size:0.8125em;
+  line-height: 1.8em;
+  margin-bottom: 2%;
+}
+.company_address a{
+  color:#DEB887;
+  font-size:1.1em;
+  line-height: 1.8em;
+  margin-bottom: 2%;
+}
+.list3 li img
+{
+  float:left;
+  margin-top: 4px;
+}
+.list3 li .extra-wrap
+{
+  float:left;
+  padding-left: 1em;
+}
+.clear{clear:both;} 
+
+/*--footer--*/
+footer {
+  padding: 25px 0;
+  background: #FFF8DC;
+  }
+.copy  {
+  color: #FF8C00;
+  font-size: 0.8125em;
+  line-height: 1.8em;
+  text-align: center;
+  }
+.copy a {
+  color: #eee;
+}
+.copy a:hover {
+  color: #a97b7b;
+}
+
+
+
+
+
+
+
+
